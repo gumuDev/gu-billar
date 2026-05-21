@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billar POS — Sistema de gestión para billares</title>
+  <meta name="description" content="Controla mesas, productos, pagos e inventario de tu billar desde tu celular. Rápido, simple y sin papel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="nav-icon">🎱</div>
+        <span class="nav-title">Billar POS</span>
+      </div>
+      <a href="#download" class="btn btn-sm">Descargar app</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="badge">Sistema POS para billares</div>
+      <h1 class="hero-title">
+        Gestiona tu billar<br />
+        <span class="gradient-text">desde tu celular</span>
+      </h1>
+      <p class="hero-subtitle">
+        Controla mesas, tiempo, productos, pagos e inventario en un solo lugar.
+        Sin papel, sin errores, sin complicaciones.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary btn-lg">
+          <span>⬇</span> Descargar gratis
+        </a>
+        <a href="#features" class="btn btn-ghost btn-lg">Ver funciones</a>
+      </div>
+      <!-- Mock phone -->
+      <div class="phone-wrapper">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="mock-header">
+              <span class="mock-dot occupied"></span>
+              <span class="mock-label">Mesa 01 — OCUPADA</span>
+              <span class="mock-timer">00:42:17</span>
+            </div>
+            <div class="mock-tables">
+              <div class="mock-table occupied">
+                <span class="mock-table-name">Mesa 01</span>
+                <span class="mock-table-status">OCUPADA</span>
+                <span class="mock-table-time">00:42:17</span>
+              </div>
+              <div class="mock-table free">
+                <span class="mock-table-name">Mesa 02</span>
+                <span class="mock-table-status">LIBRE</span>
+              </div>
+              <div class="mock-table paused">
+                <span class="mock-table-name">Mesa 03</span>
+                <span class="mock-table-status">PAUSADA</span>
+              </div>
+              <div class="mock-table topay">
+                <span class="mock-table-name">Mesa 04</span>
+                <span class="mock-table-status">POR COBRAR</span>
+              </div>
+              <div class="mock-table free">
+                <span class="mock-table-name">Mesa 05</span>
+                <span class="mock-table-status">LIBRE</span>
+              </div>
+              <div class="mock-table occupied">
+                <span class="mock-table-name">Mesa 06</span>
+                <span class="mock-table-status">OCUPADA</span>
+                <span class="mock-table-time">01:15:03</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-label">Funciones principales</div>
+      <h2 class="section-title">Todo lo que necesitas<br />en un solo lugar</h2>
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#1B5E20;">🎱</div>
+          <h3>Control de mesas</h3>
+          <p>Abre, pausa y cierra mesas con un toque. Timer en tiempo real para cada mesa activa.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#1565C0;">🛒</div>
+          <h3>Productos por mesa</h3>
+          <p>Agrega bebidas, snacks y otros productos a cada mesa durante la sesión. Stock descontado al instante.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#E65100;">💳</div>
+          <h3>Cobros y pagos</h3>
+          <p>Acepta efectivo, QR y otros métodos. Soporte de pago dividido entre varios pagadores.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#6A1B9A;">📦</div>
+          <h3>Inventario</h3>
+          <p>Historial de movimientos, ajuste de stock con motivo y alertas de stock bajo automáticas.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#880E4F;">📊</div>
+          <h3>Reportes diarios</h3>
+          <p>Ve el total del día, sesiones activas, productos más vendidos y ventas por empleado.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#37474F;">👥</div>
+          <h3>Roles y empleados</h3>
+          <p>Admin y empleado con permisos diferenciados. Cada comercio tiene sus propios datos aislados.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-label">Flujo de trabajo</div>
+      <h2 class="section-title">Así de simple</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Abre la mesa</h3>
+            <p>El empleado selecciona la mesa libre y la abre. El cronómetro arranca automáticamente.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Agrega productos</h3>
+            <p>Durante el juego, agrega bebidas y snacks. El stock baja en tiempo real.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Cierra y cobra</h3>
+            <p>Cierra la mesa, el sistema calcula el total automáticamente. Cobra en un toque.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="download" id="download">
+    <div class="container">
+      <div class="download-card">
+        <div class="download-icon">📱</div>
+        <h2>Descarga la app</h2>
+        <p>Disponible para Android. Instala directamente desde el archivo APK.</p>
+        <div class="download-buttons">
+          <a href="./download/billar-pos.apk" class="btn btn-primary btn-lg download-btn" id="apk-download">
+            <span>⬇</span> Descargar APK — Android
+          </a>
+          <div class="coming-soon">
+            <span class="cs-icon">🍎</span>
+            <span>iOS — Próximamente</span>
+          </div>
+        </div>
+        <p class="download-note">
+          Al instalar el APK, asegúrate de permitir la instalación desde fuentes desconocidas en los ajustes de tu Android.
+        </p>
+        <div class="version-badge" id="version-badge">v1.0.0</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="nav-icon">🎱</span>
+        <span class="nav-title">Billar POS</span>
+      </div>
+      <p class="footer-copy">© 2026 Billar POS. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
